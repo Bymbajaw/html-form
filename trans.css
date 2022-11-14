@@ -5,6 +5,11 @@
     background-color: aliceblue;
     border-radius: 20px;
 }
+.box:hover{
+    transition-property: left, top, ;
+    
+}
+
 
 .normal{
     position: absolute;
@@ -24,6 +29,8 @@
     transition: all 3s;
     transition-property: left, top;
     transition-duration: 1s, 1s, 1s;
+    margin: 20px;
+
 }
 
 .example1{
@@ -56,3 +63,11 @@
     padding-top: 40px;
 }
 
+
+.example2:hover{
+    transition: all 3s;
+    transition-property: left, top;
+    transition-duration: 1s, 1s, 1s;
+    margin: 20px;
+    transition: all 2s;
+}
