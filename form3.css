@@ -1,0 +1,50 @@
+body{
+    background-color:  rgba(137, 176, 223);
+}
+
+.box{
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+}
+.general{
+    background-color: #fff;
+    width: 50%;
+}
+
+.general--{
+    width: 400px;
+    padding-left: 50px;
+}
+.contact{
+    background-color: rgb(38, 84, 157);
+    width: 50%;
+    
+}
+
+.edr{
+    width: 106%;
+}
+.form{
+    padding: 20px;
+    border: 0;
+    width: 80%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+select{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    width: 106%;
+}
+
+input{
+    
+}
