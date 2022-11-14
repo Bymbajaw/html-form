@@ -1,0 +1,34 @@
+.form-group{
+    flex-wrap: wrap;
+}    
+ 
+.form{
+    width: 200px;
+}
+
+.g{
+    width: 500px;
+}
+
+.g ul{
+    list-style: none;
+    
+}
+
+.g ul li{
+    margin: 20px;
+    display: flex;
+
+}
+.a{
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.abc{
+    display: flex;
+    height: 20px;
+    
+} 
+ 
