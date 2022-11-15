@@ -1,0 +1,13 @@
+@media(min-width:1350px){
+    header{
+        background-image: url(https://images.template.net/wp-content/uploads/2014/11/best-natural-cover-photo-of-forest.jpg);
+        
+   
+    }
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    
+}
