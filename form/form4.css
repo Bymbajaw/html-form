@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    
+    
+}   
+
+.background{
+    background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: #fff;
+    box-sizing: border-box;
+    height: 950px;
+}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    margin-top: -20px;
+}
+.full{
+    padding-bottom: 100px;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgba(118, 103, 214, 0.4);
+    border-radius: 10px;
+   
+    padding: 5px;
+}
+
+select{
+    width: 99.5%;
+}
+
+input{
+    width: 98%;
+}
+
+.radio{
+    display: flex;
+}
+
+.checkbox{
+    display: flex;
+    
+    
+}
+
+
+.submit{
+    width: 100.5%;
+    
+    padding: 10px;
+
+}
+
+
+::placeholder{
+    padding: 30px;
+}
+
+
+.back-gradient{
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3));
+}
+
+textarea{width: 99%;}
