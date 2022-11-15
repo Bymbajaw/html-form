@@ -1,0 +1,73 @@
+#delay_demo2{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px #aaa solid;
+    padding: 10px;
+}
+
+#delay_demo2 div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#normal{
+    z-index: 8;
+    background-color: rgb(59, 219, 51);
+    transition: all 1s ease-in-out;
+}
+
+#delay_demo2 div p{
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#example1{
+    z-index: 9;
+    background-color: rgb(55, 30, 220);
+    transition-property: left, top, background-color;
+    transition-duration: 1s, 1s, 1s;
+    transition-delay: 0s, 1s, 1s;
+    transition: all 1s ease-in-out;
+}
+
+#example2{
+    z-index: 10;
+    background-color: rgb(123, 23, 23);
+    transition-property: left, top, background-color;
+    transition-duration: 2s, 3s, 3s;
+    transition-delay: 0s, 1s, 1s;
+    transition: all 1s ease-in-out;
+}
+
+#delay_demo2:hover #normal{
+    top: 0px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#delay_demo2:hover #example1{
+    top: 300px;
+    left: 400px;
+    background-color: black;
+}
+#delay_demo2:hover #example2{
+    top: 220px;
+    left: 220px;
+    background-color: rgb(220, 226, 33);
+}
