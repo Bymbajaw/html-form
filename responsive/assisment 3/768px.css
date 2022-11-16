@@ -1,0 +1,27 @@
+.menu{
+    display: none;
+
+}
+
+.bars{
+    margin-right: -50px;
+}
+
+.tag{
+    
+}
+
+.tag h1{
+    font-size: 60px;
+    padding-right: 40px;
+}
+
+.tag-btn a{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.footers-tag a{
+    padding-left: 30%;
+    padding-right: 30%;
+}

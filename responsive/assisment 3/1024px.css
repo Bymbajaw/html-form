@@ -1,0 +1,53 @@
+.menu{
+    display: none;
+
+}
+
+.bars{
+    display: block;
+    margin-right: -80px;
+}
+
+.sect{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.tag{
+    width: 100%;
+    padding: 20px;
+}
+
+.tag-btn a{
+    padding-left:40% ;
+    padding-right:40% ;
+}
+
+.image{
+    width: 100%;
+}
+
+.tag h1{
+    font-size: 90px;
+    
+}
+
+.tag p{
+    
+}
+
+.footers-tag a{
+    padding-left:40% ;
+    padding-right:40% ;
+}
+
+.footer-img ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
