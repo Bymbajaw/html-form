@@ -1,0 +1,13 @@
+
+.col{
+    width:16%;
+}
+
+.image ul{
+    display: flex;
+    
+}
+
+.col img{
+    width: 100% ;
+}

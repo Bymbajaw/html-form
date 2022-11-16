@@ -1,0 +1,34 @@
+
+.col{
+    width:48%;
+}
+
+.image ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col img{
+    width: 100% ;
+}
+
+.lorem-img{
+    width: 40%;
+
+}
+
+
+
+
+
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;    
+    
+}
+
+.bottom-aside{
+    width: 100%;
+    margin-top: 40px;
+}

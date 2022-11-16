@@ -1,0 +1,23 @@
+.col{
+    width:90%;
+}
+
+.image ul{
+    display: flex;
+    
+    
+}
+
+.col img{
+    width: 100% ;
+}
+
+
+.lorem-img{
+    width: 80%;
+
+}
+
+.lorem-tag{
+    margin-top: -20px;
+}
