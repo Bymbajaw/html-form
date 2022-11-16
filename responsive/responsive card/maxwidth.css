@@ -1,0 +1,22 @@
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.top-image{
+    
+}
+.top-image img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-image img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
