@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+}
+.container{
+    width: 100%;
+
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+
+.box1:checked {
+    transform: translateX(2000px);
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: 5s;
+}
+
+.box2:hover{
+    width: 1000px;
+
+}

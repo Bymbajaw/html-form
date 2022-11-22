@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container bg-light rounded-5">
+      <div class="p-2">
+        <h4 class="text-center">
+          Байгууллагын дотоод үйл ажиллагаанд зориулсан судалгаанд тавтай морил
+        </h4>
+        <div class="section m-1">
+          <form action="">
+            <div class="row">
+              <p class="p-0">Ерөнхий мэдээлэл</p>
+              <div class="col-12 col-xl-6 col-md-6 col-sm-12">
+                <div class="col">
+                  <div class="">
+                    <label for="">Овог</label>
+                  </div>
+                  <input class="form-control" required type="text" />
+                </div>
+                <div class="col">
+                  <div class=""><label for="">Нэр</label></div>
+                  <input class="form-control" required type="text" />
+                </div>
+                <div class="col">
+                  <div class="">
+                    <label for="">Нас</label>
+                  </div>
+                  <input class="form-control" required type="text" />
+                </div>
+              </div>
+              <div class="col-12 col-xl-6 col-md-6 col-sm-12">
+                <div class="col">
+                  <label for="aimag">Аймаг</label>
+                  <div class="">
+                    <select class="form-control" name="" id="">
+                      <option value="0 ">Сонгох</option>
+                      <option value="1 ">Увс</option>
+                      <option value="2 ">Дархан</option>
+                      <option value="3 ">Дорноговь</option>
+                    </select>
+                  </div>
+                  <div class="">
+                    <label for="sum">Сум</label>
+                    <div class="">
+                      <select class="form-control" name="" id="">
+                        <option value="0 ">Сонгох</option>
+                        <option value="1 ">Алтанширээ</option>
+                        <option value="2 ">Хунт</option>
+                        <option value="3 ">Дорви</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="">
+                    <label for="bag">Баг</label>
+                    <div class="">
+                      <select class="form-control" name="" id="">
+                        <option value="0 ">Сонгох</option>
+                        <option value="1 ">2-р баг</option>
+                        <option value="2 ">3-р баг</option>
+                        <option value="3 ">6-р баг</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-3">
+                <input
+                  class="bg-warning rounded-2 border-0 p-2"
+                  type="submit"
+                  value="Хадгалах"
+                  name=""
+                  id=""
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <hr />
+        <div class="section m-1">
+          <form action="">
+            <div class="row">
+              <p class="p-0">Хэсэг 1</p>
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <label for="">Үйл ажиллагаа 1</label>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <input class="form-control" required type="text" />
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <label for="">Үйл ажиллагаа 2</label>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <input class="form-control" required type="text" />
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <label for="">Үйл ажиллагаа 3</label>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <select
+                    name=""
+                    required
+                    class="form-control bg-secondary"
+                    id=""
+                  >
+                    <option value="0">Машин</option>
+                    <option value="0">Дугуй</option>
+                    <option value="0">Мото</option>
+                    <option value="0">Морь</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <label for="">Үйл ажиллагаа 4</label>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <div class=""><input required type="radio" />Үгүй</div>
+                  <div class="">
+                    <input required type="radio" name="" id="" />Тийм
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-12 col-sm-12 col-md-3 col-xl-3">
+                  <label for="">Үйл ажиллагаа 5</label>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <div class=""><input type="checkbox" />Шинэ жил</div>
+                  <div class=""><input type="checkbox" />Цагаан сар</div>
+                  <div class=""><input type="checkbox" />Наадам</div>
+                  <div class=""><input type="checkbox" />Хүүхдийн баяр</div>
+                </div>
+                <div class="pt-3">
+                  <input
+                    class="bg-secondary text-white rounded-2 border-0 p-2"
+                    type="submit"
+                    value="Хадгалах"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <hr />
+        <div class="section m-1">
+          <div class="row">
+            <p class="p-0">Хэсэг 2</p>
+            <div class="col-12 col-xl-6 col-md-6 pt-3">
+              <input class="form-control" type="text " placeholder="name" />
+            </div>
+            <div class="col-12 col-xl-6 col-md-6 pt-3">
+              <input
+                class="form-control"
+                type="text "
+                placeholder="firstname"
+              />
+            </div>
+            <div class="col-12 col-xl-6 col-md-6 pt-3">
+              <input class="form-control" type="text " placeholder="gender" />
+            </div>
+            <div class="col-12 col-xl-6 col-md-6 pt-3">
+              <input class="form-control" type="text " placeholder="age" />
+            </div>
+            <div class="col-12 col-xl-8 col-md-8 pt-3">
+              <input class="form-control" type="text " placeholder="City" />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 pt-3">
+              <input class="form-control" type="text " placeholder="State" />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 pt-3">
+              <input class="form-control" type="text " placeholder="Zip" />
+            </div>
+            <div class="pt-3">
+              <input
+                class="bg-primary text-white rounded-2 border-0 p-2"
+                type="submit"
+                value="Хадгалах"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="section m-1">
+          <div class="row">
+            <p class="p-0">Хэсэг 3</p>
+            <div class="row">
+              <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+                <p>Ногоо</p>
+              </div>
+              <div class="col-12 col-xl-4 col-sm-12 col-md-4">
+                <p>Сүүлийн 12 сард та [НЭР ТӨРӨЛ] ургац хураан авсан уу?</p>
+              </div>
+              <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+                <p>Өрхийн хэрэгцээнд хэрэглэсэн (D01)</p>
+              </div>
+              <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+                <p>Малын тэжээлд зориулсан (D02)</p>
+              </div>
+              <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+                <p>Худалдсан (D03)</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+              <label for="">Төмс</label>
+            </div>
+
+            <div class="col col-xl-4 col-md-4">
+              <input class="col" required type="radio" name="" id="" />
+              <label for=""> Тийм </label>
+              <input
+                class="col col-xl-1 col-sm-1 col-md-1"
+                type="radio"
+                name=""
+                id=""
+              />
+              <label for="">Үгүй</label>
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D01"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D02"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                type="text"
+                required
+                name=""
+                placeholder="D03"
+                id=""
+              />
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-xl-2 col-sm-12 col-md-2">
+              <label for="">Байцаа</label>
+            </div>
+            <div class="col col-xl-4 col-md-4">
+              <input
+                class="col"
+                required
+                type="radio"
+                name=""
+                id="lexRadioDefault1"
+              />
+              <label for="flexRadioDefault1">Тийм</label>
+              <input
+                class="col col-xl-1 col-sm-1 col-md-1"
+                type="radio"
+                required
+                name=""
+                id="lexRadioDefault2"
+                checked
+              />
+              <label for="flexRadioDefault2">Үгүй</label>
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D01"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                type="text"
+                required
+                name=""
+                placeholder="D02"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                type="text"
+                required
+                name=""
+                placeholder="D03"
+                id=""
+              />
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col-12 col-xl-2 col-md-2">
+              <label for="">Лууван</label>
+            </div>
+            <div class="col col-xl-4 col-md-4">
+              <input class="col" required type="radio" name="" id="" />
+              <label for="">Тийм</label>
+              <input
+                class="col col-xl-1 col-sm-1 col-md-1"
+                type="radio"
+                required
+                name=""
+                id=""
+              />
+              <label for="">Үгүй</label>
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D01"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D02"
+                id=""
+              />
+            </div>
+            <div class="col-12 col-xl-2 col-md-2 ps-0 pt-3">
+              <input
+                class="form-control"
+                required
+                type="text"
+                name=""
+                placeholder="D03"
+                id=""
+              />
+            </div>
+            <div class="pt-3">
+              <input
+                class="bg-success text-white rounded-2 border-0 p-2"
+                type="submit"
+                required
+                value="Хадгалах"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

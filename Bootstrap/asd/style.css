@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+}
+
+
+
+
+.col{
+    background-color: aqua;
+
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    column-gap: 0.4rem;
+}
+

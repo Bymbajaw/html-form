@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+#chk{
+    display: none;
+}
+
+.switch{
+    background-color: #777;
+    width: 120px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.slider{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: all .5s ease-in-out;
+}
+
+#chk:checked~ .switch{
+    background-color: rgb(92, 157, 235);
+}
+
+#chk:checked ~ .switch .slider{
+    transform: translateX(60px);
+}

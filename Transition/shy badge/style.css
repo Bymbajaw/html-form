@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
+.helloworld-notif{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.hello{
+    width: 700px;
+    height: 200px;
+    background-color: #ccc;
+    position: relative;
+   transition: 1s ;
+   border-radius: 20px; 
+   
+    
+}
+.hello p{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px ;
+    
+}
+
+.hello:hover{
+    background-color: red;
+}
+
+.notif{
+    width: 100px;
+    background-color: red;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -45px;
+
+}
+
+.notif{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    transition: 1s ;
+}
+
+
+
+.helloworld-notif:hover .notif{
+    margin: 10px;
+    z-index: 8;
+
+}
+
+.helloworld-notif:hover .hello{
+    z-index: 9;
+
+}

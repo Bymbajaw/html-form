@@ -1,0 +1,27 @@
+
+
+body{
+  margin: 0;
+  padding: 0;   
+}
+
+.container{
+    
+}
+nav ul{
+    list-style: none;
+}
+
+.x{
+    text-decoration: none;
+    color: white;
+    font-size: 40px ;
+    
+    
+}
+
+.xbut{
+    background-color: black;
+    width: 20px;
+    padding: 40px;
+}

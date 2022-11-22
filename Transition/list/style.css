@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    
+}   
+
+div{
+    background-color: aqua;
+    color: brown;
+    height: 50px;
+    width: 200px;
+    border-top:solid 1px green ;
+    
+}
+
+.box1{
+    transition: 2s ease-in-out;
+    
+
+}
+
+a{
+    text-decoration: none;
+    transition: 2s;
+    
+}
+
+
+
+.box1:hover{
+    height: 120%;
+    flex-wrap: wrap;
+    background-color: burlywood;
+
+}
+.box1 a:hover{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.box2{
+    transition: 2s ease-in-out;
+}
+.box2:hover{
+    height: 145%;
+    background-color: burlywood;
+
+}
+.box2 a:hover{
+    font-size: 25px;
+}
+.box3{
+    transition: 2s;
+}
+.box3:hover{
+    height: 160%;
+    background-color: burlywood;
+
+}
+.box3 a:hover{
+    font-size: 27px;
+    
+}
+.box4{
+    transition: 2s;
+}
+.box4:hover{
+    height: 175%;
+    background-color: burlywood;
+}
+.box4 a:hover{
+    font-size: 30px;
+}
+
+.box5{
+    
+    transition: 2s;
+}
+.box5:hover{
+    height: 190%;
+    background-color: burlywood;
+
+}
+.box5 a:hover{
+    font-size: 35px;
+}
+.box6{
+    border: 0;
+    height: 200%;
+}
