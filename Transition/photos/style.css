@@ -1,34 +1,235 @@
+body{
+    background-color: rgb(45, 30, 4);
+}
 .container{
-    
+    width: 900px;
+    height: 900px;
+    background: #000;
+    margin: 100px auto;
+       
 }
 
 .photos{
+    position: absolute;
     display: flex ;
     flex-wrap: wrap;
-    position: absolute;
+    width: 900px;
+    height: 900px;
     
     
 }
 
 .photos img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    transition: 2s;
-    filter: grayscale(100%);
+
     
 }
 
-.photos img{
+.box1{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
     
-    transition: 2s;
+}
+.a1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
 }
 
+.a1:hover .box1{
+    margin-top: -300px;
+    margin-left: -300px;
+    border-radius: 200px;
 
-.photos img:hover{
-    filter: grayscale(0%);
-    transform: translate(20px 29px);
+}
+
+.box2{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
     
-    
-} 
+}
  
+.a2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+.a2:hover .box2{
+    margin-top: -300px;
+    border-radius: 200px;
+}
+.box3{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+ 
+.a3{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    overflow: hidden;
+    
+    
+    
+}
+
+.a3:hover .box3{
+    margin-top: -300px;
+    margin-left: 300px;
+    border-radius: 200px;
+    
+}
+.box4{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 300px;
+    overflow: hidden;
+}
+
+.a4:hover .box4{
+    margin-left: -300px;
+    border-radius: 200px;
+}
+.box5{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a5{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 300px;
+    overflow: hidden;
+    
+}
+
+.a5:hover .box5{
+    width: 0px;
+    height: 0px;
+    margin: 150px;
+    border-radius: 200px;
+    
+}
+.box6{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a6{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    overflow: hidden;
+}
+
+.a6:hover .box6{
+    margin-left: 300px;
+    border-radius: 200px;
+}
+.box7{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a7{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 600px;
+    overflow: hidden;
+}
+
+.a7:hover .box7{
+    margin-top: 300px;
+    margin-left: -300px;
+    border-radius: 200px;
+}
+.box8{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a8{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 300px;
+    overflow: hidden;
+    margin-top: 600px;
+}
+
+.a8:hover .box8{
+    margin-top: 300px;
+    border-radius: 200px;
+
+}
+.box9{
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    
+}
+ 
+.a9{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 600px;
+    overflow: hidden;
+
+}
+
+.a9:hover .box9{
+    margin-top: 300px;
+    margin-left: 300px;
+    border-radius: 200px;
+}
