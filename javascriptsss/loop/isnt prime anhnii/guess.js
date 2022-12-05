@@ -3,9 +3,9 @@ let num = Math.ceil(Math.random()*100);
 let a = 0;
 
 if(RandomNumber>=1 && RandomNumber<=100) {
-    while (num >= a){    
-        if(RandomNumber >= a){
-            num=num  ;
+    while (num >= RandomNumber){    
+        if(num >= a){
+            num<a  ;
         }
         a++;
         console.log(num+ a);
