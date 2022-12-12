@@ -25,12 +25,29 @@ let students=[
     gender: "female"
 },
 ]
+// Ангид хэдэн эрэгтэй , эмэгтэй сурагч байгааг олох object буцаадаг функц бичих
+
 console.log(students)
 function myFunction(){
-    for(let i = 1; i < students.length -1; i++){
-        if(students[i].gender == male){
-            console.log(students[i].name + " " + gender + "хүйс")
+    for(let i = 0; i < students.length; i++){
+        for (let j = 0; j < students[i].gender; j++) {
+            
         }
+        console.log(students[i].gender)
     }
 }
 myFunction();
+
+
+// Сурагчдын насны дунджийг олох функц бичих 
+let p = 0;
+let z = 0;
+console.log(students.length);
+function ageUp(){
+    for (let k = 0; k < students[k].age; k++) {
+        let dundaj =  students[k].age / students.length;
+        console.log( dundaj)
+        
+    }
+}
+ageUp();
