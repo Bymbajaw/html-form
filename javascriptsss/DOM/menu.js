@@ -28,11 +28,15 @@
 
 function createString(){
     let cards ="";
-    for (let i = 0; i < 3; i++) {
-        let card = `<div class="card" style="border-sizing:border-box; width:18rem; background-color: rgb(245, 214, 184); text-align:center; border-radius: 10px;"> <img class="card-img-top" style="width: 100%; border-radius: 10px; "src="https://media.istockphoto.com/id/481199969/photo/open-book.jpg?s=612x612&w=0&k=20&c=eZQgEiRyKmdwgvk-2l_nE17OYOKhivPNwyDZV5STCcw=">
+    for (let i = 0; i < 1; i++) {
+        let card = `<div class="card" style="border-sizing:border-box;  width:23rem;   background-color: rgb(153, 187, 242); text-align:center; border-radius: 10px;">
+         <img class="card-img-top" style="width: 100%; object-fit:cover; height: 250px; border-radius: 10px; 
+         "src="https://scontent.fuln1-1.fna.fbcdn.net/v/t39.30808-6/270234689_1101442243936567_2786025096140716686_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGkikcxbh59wV4LlMFPwbOkI8R5lBSTL88jxHmUFJMvzzdWvNsPhIhckjvWideS-AJduEgUx_EKGDShqmnkuA6O&_nc_ohc=qy5FhneyYtsAX_TAbHG&_nc_ht=scontent.fuln1-1.fna&oh=00_AfBzxRLY4tMqSoLa3xzazOF8STnAJv8Dhj8WkUeBRaaDOQ&oe=639D9C34">
         <div class="card-body">
-        <h5 class="card-title" style="font-size:20px;">Card title</5>
-        <p class="card-text" style="margin-top:10px; padding:10px;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <h5 class="card-title" style="font-size:20px;">🤍 Мэндчилгээ 🤍</5>
+        <p class="card-text" style="padding:10px 20px; font-size:20px;">Эрхэм хүндэт Г.Үжин танд шинэ оны баярын мэндийг хүргэе 🎄🎁 </p>
+        <p class="card-about" style="padding:10px 20px;">Ирэх он нь инээд хөөр баяр баясал, аз жаргал, амжилт бүтээлээр дүүрэн жил нь байгаасай🤍🫰🏻🫶🏻</p>
+        <p class="card-about" style="text-align:right; padding:10px;">Хүндэтгэсэн: Bebe</p>
         </div>
         </div>`;
         
