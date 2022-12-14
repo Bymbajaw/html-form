@@ -1,25 +1,25 @@
-// let menus = [{id:1, name:"Home", href:""},
-//             {id:2, name:"Contact", href:""},
-//             {id:3, name:"About", href:""},
-//             {id:4, name:"Library", href:""},
-//             {id:5, name:"Quit", href:""}]
-// let ulEl= document.createElement("ul")
-// console.log(ulEl)
-// let mainEl = document.getElementById("menu")
-// console.log(mainEl);
-// for (let i = 0; i < menus.length; i++) {
-//     let liE= document.createElement("li");
+let menus = [{id:1, name:"Home", href:""},
+            {id:2, name:"Contact", href:""},
+            {id:3, name:"About", href:""},
+            {id:4, name:"Library", href:""},
+            {id:5, name:"Quit", href:""}]
+let ulEl= document.createElement("ul")
+console.log(ulEl)
+let mainEl = document.getElementById("menu")
+console.log(mainEl);
+for (let i = 0; i < menus.length; i++) {
+    let liE= document.createElement("li");
     
-//     let aE= document.createElement("a");
-//     aE.innerHTML= menus[i].name;
-//     aE.href= menus[i].href;
-//     liE.appendChild(aE)
-//     ulEl.appendChild(liE)
-//     console.log(liE);
-//     console.log(aE);
-// }
-// mainEl.appendChild(ulEl)
-// console.log(ulEl)
+    let aE= document.createElement("a");
+    aE.innerHTML= menus[i].name;
+    aE.href= menus[i].href;
+    liE.appendChild(aE)
+    ulEl.appendChild(liE)
+    console.log(liE);
+    console.log(aE);
+}
+mainEl.appendChild(ulEl)
+console.log(ulEl)
 
 
 
