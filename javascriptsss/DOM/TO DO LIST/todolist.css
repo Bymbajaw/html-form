@@ -6,7 +6,6 @@ body{
 
 .container{
     background-color: bisque;
-    text-align: center;
     border-radius: 20px;
     box-sizing: border-box;
     align-items: center;
@@ -40,8 +39,28 @@ body{
 
 .div1{
     width: 100%;
+    text-align: center;
 }
 .div2{
     width: 90%;
     margin: 0 auto;
+    text-align: center;
+    
+}
+
+.sDiv{
+    text-align: left;
+    display: flex;
+}
+
+.span{
+    text-align: start;
+    font-size: 40px;
+}
+
+.icons{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }

@@ -15,10 +15,6 @@ todo.className = "todo"
 sectionDiv1.appendChild(todo)
 
 
-// let de =  Date();
-// sectionDiv1.append(de)
-// console.log(de);
-
 let inputEl = document.createElement("input");
 
 inputEl.name = "task"
@@ -43,14 +39,42 @@ function addTask(){
 
 
     let aDiv = document.createElement("div");
+    let sDiv = document.createElement("div")
     let aSpan = document.createElement("span");
-
-    aSpan.innerHTML = inputEl.value;
+    let icon1 = document.createElement("i")
+    let icon2 = document.createElement("a")
+    let icon3 = document.createElement("a")
     
-    aDiv.appendChild(aSpan)
+    
+    aSpan.innerHTML = inputEl.value;
+    aSpan.className = "span"
+    sDiv.className = "sDiv"
+    icon1.className = "icons"
+    icon1.href=""
+    icon2.className = "icons"
+    icon2.href=""
+    icon3.className = "icons"
+    icon3.href=""
+    
 
+
+
+
+
+    aDiv.appendChild(sDiv)
+    sDiv.appendChild(aSpan)
+    sDiv.appendChild(icon1)
+    sDiv.appendChild(icon2)
+    sDiv.appendChild(icon3)
+
+    
+    icon1.innerHTML = "✎"
+    icon2.innerHTML = "✓"
+    icon3.innerHTML = "🗑️"
+    
+    
     sectionDiv2.appendChild(aDiv)
-
+    
 
     // console.log(value);
 }
@@ -79,7 +103,10 @@ sectionDiv2.appendChild(jagsaalt)
 
 
 
-
+    // let icon = document.createElement("i")
+    //     icon.innerHTML = '<i class="bi bi-pencil-fill"></i>'
+    //     icon.appendChild(jagsaalt)
+    //     console.log(icon);
 
 
 
