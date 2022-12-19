@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    width: 100%;
+    /* font-size: 0px; */
+}
+
+.container{
+    background-color: burlywood;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+input{
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: solid 2px orange;
+}
+
+button{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-bottom: solid 2px orange;
+    margin-left: -5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(177, 130, 43);
+    border-bottom:rgb(177, 130, 43) solid 2px;
+}
+
+
+

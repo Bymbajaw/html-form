@@ -1,0 +1,12 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 4px;
+  }
+  
+  .flex {
+    display: flex;
+  }
