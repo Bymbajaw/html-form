@@ -1,4 +1,5 @@
-let aimagEl = document.getElementById("aimagsName");
+let aimagEl = document.createElement("aimagsName");
+aimagEl = [value:1, name:"sadfasdf"];
 
 let soumEl = document.getElementById("soumsName")
 
