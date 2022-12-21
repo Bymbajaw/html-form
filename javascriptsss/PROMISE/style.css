@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: rgb(246, 228, 228);
+}
+.container{
+    background-color: rgb(191, 247, 247);
+    width: 700px;
+    box-sizing: border-box;
+    text-align: center;
+}
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.point{
+    width: 50px;
+}
+
+.gender{
+    padding:4.2px;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    padding: 5px;
+    border:none;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(42, 39, 39);
+    color: white;
+}
+
+.lastname{
+    
+
+}

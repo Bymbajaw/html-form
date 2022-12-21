@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="section1">
-        <h1>Todo List App</h1>
-        <div class="inp-btn">
-            <input type="text" placeholder="Та таскаа оруулна уу." name="" id="">
-            <button onclick="newElement()">+нэмэх</button>
+      <h1 class="title">Todo List App</h1>
+      <div class="todo-list">
+        <div class="list-head">
+          <input
+            type="text"
+            class="entered-list"
+            placeholder="Та task оруулна уу."
+          />
+          <button class="add-list">+нэмэх</button>
         </div>
+
+        <div class="tasks">
+          <div class="item">
+            <div class="item-btn">
+              <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+              <i class="fa-sharp fa-solid fa-trash"></i>
+            </div>
+          </div>
         </div>
-        <div class="section2">
-            <h1 class="jags">Жагсаалт</h1>
-            <ul id="myUL">
-                
-            </ul>
-            
-        </div>
+      </div>
     </div>
     <script src="my.js"></script>
-</body>
+  </body>
 </html>
