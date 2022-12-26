@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./country.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- <div class="container">
+            <input type="text"  id="searchtext">
+            <div id="countries"></div>
+    
+            <select name="countries" id="country">
+                <option value=""></option>
+            </select>
+    
+            <div class="row" id="rows"></div>
+        </div> -->
+        <div class="container">
+            <h5>Хайлт</h5>
+            <div id="search-section">
+                <input type="text" name="" id="searchTxt" placeholder="Хайх үг">
+                <select name="region" id="region">
+                    <option value="0">Сонгоно уу.</option>
+                </select>
+                <span id="total"></span>
+            </div>
+            <h5>Эрэмбэлэлт</h5>
+            <div id="sort-section">
+                <ul class="flex">
+                    <li><span id="sort" onclick="sort('name')">Нэрээр эрэмбэлэх ↑</span></li>
+                    <li><span id="sort" onclick="sort('population')">Хүн амын тоогоор эрэмбэлэх ↑</span></li>
+                    <li><span id="sort" onclick="sort('area')">Газар нутгийн хэмжээгээр эрэмбэлэх ↑</span></li>
+                </ul>
+            </div>
+            <h5>Улсын жагсаалт</h5>
+            <div id="list-section">
+
+            </div>
+        </div>
+    </main>
+    <script src="./country.js"></script>
+</body>
+</html>
