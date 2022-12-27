@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./country.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./country.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <!-- <div class="container">
+      <!-- <div class="container">
             <input type="text"  id="searchtext">
             <div id="countries"></div>
     
@@ -19,29 +19,119 @@
     
             <div class="row" id="rows"></div>
         </div> -->
-        <div class="container">
-            <h5>Хайлт</h5>
-            <div id="search-section">
-                <input type="text" name="" id="searchTxt" placeholder="Хайх үг">
-                <select name="region" id="region">
-                    <option value="0">Сонгоно уу.</option>
-                </select>
-                <span id="total"></span>
-            </div>
-            <h5>Эрэмбэлэлт</h5>
-            <div id="sort-section">
-                <ul class="flex">
-                    <li><span id="sort" onclick="sort('name')">Нэрээр эрэмбэлэх ↑</span></li>
-                    <li><span id="sort" onclick="sort('population')">Хүн амын тоогоор эрэмбэлэх ↑</span></li>
-                    <li><span id="sort" onclick="sort('area')">Газар нутгийн хэмжээгээр эрэмбэлэх ↑</span></li>
-                </ul>
-            </div>
-            <h5>Улсын жагсаалт</h5>
-            <div id="list-section">
-
-            </div>
+      <div class="container">
+        <h5>Хайлт</h5>
+        <div id="search-section">
+          <input type="text" name="" id="searchTxt" placeholder="Хайх үг" />
+          <select name="region" id="region">
+            <option value="0">Сонгоно уу.</option>
+          </select>
+          <span id="total"></span>
         </div>
+        <div class="vseg-filter">
+          <ul class="vseg">
+            <li data-vseg="a">
+              <a href="">A</a>
+            </li>
+            <li data-vseg="b">
+              <a href="">B</a>
+            </li>
+            <li data-vseg="c">
+              <a href="">C</a>
+            </li>
+            <li data-vseg="d">
+              <a href="">D</a>
+            </li>
+            <li data-vseg="e">
+              <a href="">E</a>
+            </li>
+            <li data-vseg="f">
+              <a href="">F</a>
+            </li>
+            <li data-vseg="g">
+              <a href="">G</a>
+            </li>
+            <li data-vseg="h">
+              <a href="">H</a>
+            </li>
+            <li data-vseg="i">
+              <a href="">I</a>
+            </li>
+            <li data-vseg="j">
+              <a href="">J</a>
+            </li>
+            <li data-vseg="k">
+              <a href="">K</a>
+            </li>
+            <li data-vseg="l">
+              <a href="">L</a>
+            </li>
+            <li data-vseg="m">
+              <a href="">M</a>
+            </li>
+            <li data-vseg="n">
+              <a href="">N</a>
+            </li>
+            <li data-vseg="o">
+              <a href="">O</a>
+            </li>
+            <li data-vseg="p">
+              <a href="">P</a>
+            </li>
+            <li data-vseg="q">
+              <a href="">Q</a>
+            </li>
+            <li data-vseg="r">
+              <a href="">R</a>
+            </li>
+            <li data-vseg="s">
+              <a href="">S</a>
+            </li>
+            <li data-vseg="t">
+              <a href="">T</a>
+            </li>
+            <li data-vseg="u">
+              <a href="">U</a>
+            </li>
+            <li data-vseg="v">
+              <a href="">V</a>
+            </li>
+            <li data-vseg="w">
+              <a href="">W</a>
+            </li>
+            <li data-vseg="x">
+              <a href="">X</a>
+            </li>
+            <li data-vseg="y">
+              <a href="">Y</a>
+            </li>
+            <li data-vseg="z">
+              <a href="">Z</a>
+            </li>
+          </ul>
+        </div>
+        <h5>Эрэмбэлэлт</h5>
+        <div id="sort-section">
+          <ul class="flex">
+            <li>
+              <span id="sort" onclick="sort('name')">Нэрээр эрэмбэлэх ↑</span>
+            </li>
+            <li>
+              <span id="sort" onclick="sort('population')"
+                >Хүн амын тоогоор эрэмбэлэх ↑</span
+              >
+            </li>
+            <li>
+              <span id="sort" onclick="sort('area')"
+                >Газар нутгийн хэмжээгээр эрэмбэлэх ↑</span
+              >
+            </li>
+          </ul>
+        </div>
+        <h5>Улсын жагсаалт</h5>
+        <div id="list-section"></div>
+      </div>
     </main>
     <script src="./country.js"></script>
-</body>
+  </body>
 </html>
