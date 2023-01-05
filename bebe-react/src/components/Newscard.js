@@ -1,11 +1,15 @@
-export default function Newscard({id, img, title, date, text}) {
-    // console.log(id, img, title, date, text);
+export default function Newscard(blog) {
+    
+  
+  
+  
+  console.log(blog);
   return (
-    <div className="section2-list" key={id}>
-        <img src={img} alt="blog img" />
-        <p>{date}</p>
-        <h4>{title}</h4>
-        <p>{text}</p>
+    <div className="section2-list" key={obj.id}>
+        <img src={blog.img} alt="blog img" />
+        <p>{obj.date}</p>
+        <h4>{obj.title}</h4>
+        <p>{obj.text}</p>
         <p>READ MORE</p>
     </div>
   )
