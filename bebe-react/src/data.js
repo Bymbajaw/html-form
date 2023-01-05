@@ -1,0 +1,58 @@
+const blog = [
+    {
+        id: 1,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 2,
+        img: "https://s3-alpha-sig.figma.com/img/26af/da24/a87cf1ec195a5ed7919714c610a46bb4?Expires=1673827200&Signature=qQw~1IN1YOgbUjVtODfCAJtv5LZy7uHK1vTMupShfi4q9q-zTLAq12~fAXdi6mPlVsWsELG68J1DS8Fs9eHcC5BX7nCPv7R-fXtN0SESG9xO~Pnhd~kpOhzndqjur8heo1TjlSZTp1K6R8-uvDzM4T8wWhaX1vXGNvi5Hsh52ImfnUyoKADKTibFyRHNRZqjpiObIsJ9FVNhbM6QiHSrx97eN6os8BnkuEdKUYVwp8S2dqXCoSodpImsa138UJ2ODgPDUVO-8tJNty4bjtTyiKvoSyLpJ56CkKV~Xk8ADyaQG8yhl~9kv9ZKNZMTRXfJKYSVZXGsf93Wwdn7ANLhWA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 3,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 4,
+        img: "https://s3-alpha-sig.figma.com/img/26af/da24/a87cf1ec195a5ed7919714c610a46bb4?Expires=1673827200&Signature=qQw~1IN1YOgbUjVtODfCAJtv5LZy7uHK1vTMupShfi4q9q-zTLAq12~fAXdi6mPlVsWsELG68J1DS8Fs9eHcC5BX7nCPv7R-fXtN0SESG9xO~Pnhd~kpOhzndqjur8heo1TjlSZTp1K6R8-uvDzM4T8wWhaX1vXGNvi5Hsh52ImfnUyoKADKTibFyRHNRZqjpiObIsJ9FVNhbM6QiHSrx97eN6os8BnkuEdKUYVwp8S2dqXCoSodpImsa138UJ2ODgPDUVO-8tJNty4bjtTyiKvoSyLpJ56CkKV~Xk8ADyaQG8yhl~9kv9ZKNZMTRXfJKYSVZXGsf93Wwdn7ANLhWA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 5,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 6,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 7,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+    {
+        id: 8,
+        img: "https://s3-alpha-sig.figma.com/img/e8e2/68a8/060149a7fe2dca2f89222c79daa98bb5?Expires=1673827200&Signature=FWsm8GApDSM1fiBJZ3Cu9j3HW5DhaBFEMr4-LblrZAB7xJq~nJaITnvnXNorVFpIIyl5NuDfmXPJpHnhscQTUN9UNUGPpGcHFCMGG4kYr-xu4O5sXFCho5Zg17MejGg4tHqrzejmBHxSa6s7XLDR-ONqOeHa3dhtNP5GRYLmNYCWawBGUeAwVIk3feRpuSa3~sni-7vjscxhyDCtnGLgAxtv3nERNKfViDV0s~t4rkUcAGThlo1FA1vGqiej~MoJv5pOLnxbaFWDDCnG66TIHKZWmugD0yO1~7LK8if~2NNwCJGxbQ6PrWSkfxZMBenOHzo9kY-K1zvzx~CufoLNSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        date: "NOV 23 2022",
+        title: "This way is wrong about UI Design.",
+        text: "A quick guide to assisting users in the challenging steps from learning about your podcast on the web.  A quick guide to assisting users in the challenging steps from learning about your podcast on the web.",
+    },
+]
